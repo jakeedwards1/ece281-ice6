@@ -107,10 +107,10 @@ begin
 	test_process : process 
 	begin
 		-- assign test values to data inputs
-		w_D3 <= "1000";
-		w_D2 <= "0100";
-		w_D1 <= "0010";
-		w_D0 <= "0001";
+		w_D3 <= "1100";
+		w_D2 <= "1001";
+		w_D1 <= "0110";
+		w_D0 <= "0011";
 
 				
 		-- reset the system first
